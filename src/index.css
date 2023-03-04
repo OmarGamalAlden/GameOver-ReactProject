@@ -1,0 +1,102 @@
+body{
+    background-color: #272B30;
+    color: white ;
+}
+.nav-link , .navbar-nav .nav-link.active , .navbar-brand {
+    color: white;
+}
+.Loggoo img{
+    width: 70px;
+    cursor: pointer;
+}
+.navbar-brand:hover ,.nav-link:hover{
+    color: white;
+}
+.navbar .btn:hover{
+    background-color: transparent;
+    color: #0DCAF0;
+}
+.navbar{
+    z-index: 999999999;
+}
+#first_name{
+    width: 48%;
+    
+}
+#last_name{
+    width: 48%;
+}
+input{
+    color: white !important;
+    background-color: #373d44 !important;
+    border: #373d44 solid 0px !important;
+    border-radius: 9px; 
+}
+.registerForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.half{
+    background-color: #32383E;
+}
+.half button{
+    border: 1px rgba(0, 0, 0,0.2) solid;
+    color:  white ;
+    background-color: #262a2e;
+}
+.textInfo p , .textInfo a{
+    color: #6c757d!important;
+    font-size: .92em;
+    text-align: center;
+    margin: 15px 0px;
+}
+.textInfo{
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
+}
+.areUin p{
+    color: #6c757d!important;
+    font-size: 1.05rem;
+    text-align: center;
+    margin: 15px 0px;
+}
+.areUin a{
+    color: rgb(45, 45, 201);
+    font-size: 1.05rem;
+    margin: 15px 0px;
+    text-decoration: none;
+}
+.warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    font-size: 1rem;
+}
+.registerImg img{
+    height: 529px;
+}
+.alert-danger{
+    padding: 2px;
+    font-size: 1rem;
+}
+.game a{
+    text-decoration: none; 
+}
+.game button{
+    border: 0px solid black;
+    background-color: #23272b;
+    border-radius: 4px;
+}
+.gameDiv a{
+    text-decoration: none;
+    color: white;
+}
+.slideshow img{
+    width: 100%;
+}
+.actions button{
+    background-color: #6c757d;
+    border: 0px solid black;
+    border-radius: 4px;
+    margin: 5px;
+}
